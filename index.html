@@ -7,44 +7,45 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<!DOCTYPE html>
 
-  <header>
-    <nav class="navbar">
-      <h1>Task Manager</h1>
-    </nav>
-  </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <main class="container">
+```
+<header class="navbar">
+    <h1>Task Manager</h1>
+</header>
+
+<main class="container">
 
     <section class="hero">
-      <h2>Manage Your Daily Tasks</h2>
-      <p>Simple responsive frontend interface.</p>
+        <h2>Manage Your Daily Tasks</h2>
+        <p>Frontend & Backend Integration</p>
     </section>
 
-    <section class="task-section">
+    <section class="add-task">
+        <input type="text" id="taskInput" placeholder="Enter task title">
+        <button id="addBtn">Add Task</button>
+    </section>
 
-      <div class="task-card">
-        <h3>Finish HTML</h3>
-        <p>Complete frontend structure.</p>
-      </div>
-
-      <div class="task-card">
-        <h3>Learn CSS</h3>
-        <p>Practice responsive design.</p>
-      </div>
-
-      <div class="task-card">
-        <h3>JavaScript Basics</h3>
-        <p>Add interactivity.</p>
-      </div>
+    <section class="task-section" id="taskList">
 
     </section>
 
-    <button id="addBtn">Add Task</button>
+</main>
 
-  </main>
+<script src="script.js"></script>
+```
 
-  <script src="script.js"></script>
+</body>
+</html>
 
 </body>
 </html>
